@@ -1,0 +1,47 @@
+{
+    "spaghetti": [
+      {
+        "id": 1,
+        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_vg2p2BK57bY_cycnwr.png",
+        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+        "name": "Spaghetti Confetti",
+        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+        "rate": "4.5",
+        "amount": "₦ 4,000"
+  }   
+],
+    "Robaked": [
+      {
+        "id": 1,
+        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+        "name": "Robaked Sandwich",
+        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+        "rate": "4.2",
+        "amount": "₦ 6,000"
+  }   
+],
+    "Dream": [
+      {
+        "id": 1,
+"food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_zBONkjGFGko_encwla.png",
+        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+        "name": "Dream Salad",
+        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+        "rate": "4.7",
+        "amount": "₦ 5,300"
+  }   
+],
+    "Pepper": [
+      {
+        "id": 1,
+        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/Frame_10122_mhojsl.png",
+        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+        "name": "Pepper Egg Salad",
+        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+        "rate": "4.2",
+        "amount": "₦ 6,000"
+  }   
+]
+
+}
