@@ -10,8 +10,8 @@ const MenusDisplay = () => {
         {/* Spaghetti Menu */}
         <div className="w-full">
           {data.spaghetti.map((menuItem) => (
-            <div className="relative overflow-hidden shadow-lg" key={menuItem.id}>
-              <div className="relative">
+            <div className="relative overflow-hidden shadow-lg w-full" key={menuItem.id}>
+              <div className="relative w-full">
                 <img
                   src={menuItem.bg}
                   loading="lazy"
@@ -28,10 +28,10 @@ const MenusDisplay = () => {
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-[#FF8C00] p-4">
                   <div className="firstPara">
-                    <p className="text-lg font-semibold">{menuItem.name}</p>
-                    <p className="text-sm">{menuItem.discription}</p>
+                    <p className="text-lg font-semibold mt-[20px]">{menuItem.name}</p>
+                    <p className="text-sm mt-[10px]">{menuItem.discription}</p>
                   </div>
-                  <div className="secondPara flex justify-between items-center w-full mt-4">
+                  <div className="secondPara flex justify-between items-center w-full mt-[45px]">
                     <p className="flex items-center">
                       <img src={starOrange} alt="star icon" className="w-4 h-4 mr-1" />
                       {menuItem.rate}
@@ -47,8 +47,8 @@ const MenusDisplay = () => {
         {/* Robaked Menu */}
         <div className="w-full">
           {data.Robaked.map((menuItem) => (
-            <div className="relative overflow-hidden shadow-lg" key={menuItem.id}>
-              <div className="relative">
+            <div className="relative overflow-hidden shadow-lg w-full" key={menuItem.id}>
+              <div className="relative w-full">
                 <img
                   src={menuItem.bg}
                   loading="lazy"
@@ -65,10 +65,10 @@ const MenusDisplay = () => {
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-[#FF8C00] p-4">
                   <div className="firstPara">
-                    <p className="text-lg font-semibold">{menuItem.name}</p>
-                    <p className="text-sm">{menuItem.discription}</p>
+                    <p className="text-lg font-semibold mt-[20px]">{menuItem.name}</p>
+                    <p className="text-sm mt-[10px]">{menuItem.discription}</p>
                   </div>
-                  <div className="secondPara flex justify-between items-center w-full mt-4">
+                  <div className="secondPara flex justify-between items-center w-full mt-[45px]">
                     <p className="flex items-center">
                       <img src={starOrange} alt="star icon" className="w-4 h-4 mr-1" />
                       {menuItem.rate}
@@ -84,8 +84,8 @@ const MenusDisplay = () => {
         {/* Dream Menu */}
         <div className="w-full">
           {data.Dream.map((menuItem) => (
-            <div className="relative overflow-hidden shadow-lg" key={menuItem.id}>
-              <div className="relative">
+            <div className="relative overflow-hidden shadow-lg w-full" key={menuItem.id}>
+              <div className="relative w-full">
                 <img
                   src={menuItem.bg}
                   loading="lazy"
@@ -102,10 +102,10 @@ const MenusDisplay = () => {
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-[#FF8C00] p-4">
                   <div className="firstPara">
-                    <p className="text-lg font-semibold">{menuItem.name}</p>
-                    <p className="text-sm">{menuItem.discription}</p>
+                    <p className="text-lg font-semibold mt-[20px]">{menuItem.name}</p>
+                    <p className="text-sm mt-[10px]">{menuItem.discription}</p>
                   </div>
-                  <div className="secondPara flex justify-between items-center w-full mt-4">
+                  <div className="secondPara flex justify-between items-center w-full mt-[45px]">
                     <p className="flex items-center">
                       <img src={starOrange} alt="star icon" className="w-4 h-4 mr-1" />
                       {menuItem.rate}
@@ -121,15 +121,15 @@ const MenusDisplay = () => {
         {/* Pepper Menu */}
         <div className="w-full">
           {data.Pepper.map((menuItem) => (
-            <div className="relative overflow-hidden shadow-lg" key={menuItem.id}>
-              <div className="relative">
+            <div className="relative overflow-hidden shadow-lg w-full" key={menuItem.id}>
+              <div className="relative w-full">
                 <img
                   src={menuItem.bg}
                   loading="lazy"
                   alt={menuItem.name}
                   className="w-full h-72 object-cover"
                 />
-                <div className="topbg2 absolute top-[-30px] left-[70px]">
+                <div className="topbg2 absolute top-[-30px] left-[70px] w-full">
                   <img
                     src={menuItem.food}
                     loading="lazy"
@@ -139,10 +139,10 @@ const MenusDisplay = () => {
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-[#FF8C00] p-4">
                   <div className="firstPara">
-                    <p className="text-lg font-semibold">{menuItem.name}</p>
-                    <p className="text-sm">{menuItem.discription}</p>
+                    <p className="text-lg font-semibold mt-[20px]">{menuItem.name}</p>
+                    <p className="text-sm mt-[10px]">{menuItem.discription}</p>
                   </div>
-                  <div className="secondPara flex justify-between items-center w-full mt-4">
+                  <div className="secondPara flex justify-between items-center w-full mt-[45px]">
                     <p className="flex items-center">
                       <img src={starOrange} alt="star icon" className="w-4 h-4 mr-1" />
                       {menuItem.rate}

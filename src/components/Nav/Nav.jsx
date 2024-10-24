@@ -9,11 +9,11 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex flex-wrap gap-[20px] justify-between items-center bg-white px-4 py-2 font-['Red Hat Display'] w-full overflow-hidden">
+      <nav className="flex flex-wrap gap-[20px] justify-between items-center bg-white px-4 py-2 font-'Red Hat Display' w-full overflow-hidden">
         {/* Logo Section */}
         <div className="flex justify-center gap-[8px] items-center logo">
           <img src={logo} alt="Logo" className="w-[35.36px] h-[35.36px]" />
-          <p className="text-[26px] font-bold whitespace-nowrap w-[166px]">
+          <p className="text-[18px] lg:text-[26px] font-bold whitespace-nowrap w-[166px]">
             Marvie Foods
           </p>
         </div>
@@ -31,7 +31,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/about-us"
+                to="/aboutus"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 About Us
@@ -47,7 +47,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/how-it-works"
+                to="/meal"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 How it Works
@@ -55,7 +55,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/faqs"
+                to="/questions"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 FAQs
@@ -63,7 +63,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/contact-us"
+                to="/contactus"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 Contact Us

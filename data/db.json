@@ -1,47 +1,78 @@
 {
-    "spaghetti": [
-      {
-        "id": 1,
-        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_vg2p2BK57bY_cycnwr.png",
-        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
-        "name": "Spaghetti Confetti",
-        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
-        "rate": "4.5",
-        "amount": "₦ 4,000"
-  }   
-],
-    "Robaked": [
-      {
-        "id": 1,
-        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
-        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
-        "name": "Robaked Sandwich",
-        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
-        "rate": "4.2",
-        "amount": "₦ 6,000"
-  }   
-],
-    "Dream": [
-      {
-        "id": 1,
-"food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_zBONkjGFGko_encwla.png",
-        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
-        "name": "Dream Salad",
-        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
-        "rate": "4.7",
-        "amount": "₦ 5,300"
-  }   
-],
-    "Pepper": [
-      {
-        "id": 1,
-        "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/Frame_10122_mhojsl.png",
-        "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
-        "name": "Pepper Egg Salad",
-        "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
-        "rate": "4.2",
-        "amount": "₦ 6,000"
-  }   
-]
-
+  "spaghetti": [
+    {
+      "id": 1,
+      "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_vg2p2BK57bY_cycnwr.png",
+      "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+      "name": "Spaghetti Confetti",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+      "rate": "4.5",
+      "amount": "₦ 4,000"
+    }
+  ],
+  "Robaked": [
+    {
+      "id": 1,
+      "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+      "name": "Robaked Sandwich",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+      "rate": "4.2",
+      "amount": "₦ 6,000"
+    }
+  ],
+  "Dream": [
+    {
+      "id": 1,
+      "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/unsplash_zBONkjGFGko_encwla.png",
+      "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+      "name": "Dream Salad",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+      "rate": "4.7",
+      "amount": "₦ 5,300"
+    }
+  ],
+  "Pepper": [
+    {
+      "id": 1,
+      "food": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568494/Frame_10122_mhojsl.png",
+      "bg": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729620485/Rectangle_92_1_izkczd.png",
+      "name": "Pepper Egg Salad",
+      "discription": "Lorem ipsum dolor sit amet consectetur. Est orci arcu dignissim vestibulum.",
+      "rate": "4.2",
+      "amount": "₦ 6,000"
+    }
+  ],
+  "FAQandA": [
+    {
+      "id": 1,
+      "que": "How to place an order?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque. Orci eu lobortis semper amet sagittis feugiat massa pellentesque arcu. Ullamcorper nec amet nullam gravida commodo et dolor quis proin. Aliquam sed est cursus et risus cras feugiat ut."
+    },
+    {
+      "id": 2,
+      "que": "Do you offer payment on delivery?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque. Orci eu lobortis semper amet sagittis feugiat massa pellentesque arcu. Ullamcorper nec amet nullam gravida commodo et dolor quis proin. Aliquam sed est cursus et risus cras feugiat ut."
+    },
+    {
+      "id": 3,
+      "que": "Can I cancel an order after payment?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque. Orci eu lobortis semper amet sagittis feugiat massa pellentesque arcu. Ullamcorper nec amet nullam gravida commodo et dolor quis proin. Aliquam sed est cursus et risus cras feugiat ut."
+    },
+    {
+      "id": 4,
+      "que": "How long does it take to receive an order?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque. Orci eu lobortis semper amet sagittis feugiat massa pellentesque arcu. Ullamcorper nec amet nullam gravida commodo et dolor quis proin. Aliquam sed est cursus et risus cras feugiat ut."
+    },
+    {
+      "id": 5,
+      "que": "What is your location?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque."
+    },
+    {
+      "id": 6,
+      "que": "Is there a special discount?",
+      "ans": "Lorem ipsum dolor sit amet consectetur. Nibh integer nunc commodo nulla sit. Eget vulputate lorem arcu enim id vitae cras pharetra lectus. Fringilla suspendisse condimentum vulputate pharetra natoque."
+    }
+  ]
 }
