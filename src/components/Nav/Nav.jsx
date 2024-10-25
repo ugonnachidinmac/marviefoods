@@ -31,7 +31,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/aboutus"
+                to="/downloadContainer"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 About Us
@@ -63,7 +63,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/contactus"
+                to="/footer"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 Contact Us

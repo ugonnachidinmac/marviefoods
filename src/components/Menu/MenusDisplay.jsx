@@ -5,12 +5,12 @@ import starOrange from '../../assets/starOrange.svg';
 
 const MenusDisplay = () => {
   return (
-    <section className="pl-6 pr-6 lg:pl-20 lg:pr-20 font-'Red Hat Display' flex flex-col justify-center items-center mt-20 w-full">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <section className="pl-6 pr-6 lg:pl-20 lg:pr-20 font-'Red Hat Display' flex flex-col justify-center items-center mt-20 w-full md:overflow-hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-4 gap-10">
         {/* Spaghetti Menu */}
-        <div className="w-full">
+        <div className="w-full mb-[55px]">
           {data.spaghetti.map((menuItem) => (
-            <div className="relative overflow-visible shadow-lg w-full" key={menuItem.id}>
+            <div className="relative overflow-visible  w-full" key={menuItem.id}>
               <div className="bg-[#FF8C00] rounded-tl-[70px] rounded-br-[70px] lg:w-[290px] w-full min-h-[360px]">
                 <div className="flex justify-center">
                   <img
@@ -39,9 +39,9 @@ const MenusDisplay = () => {
         </div>
 
         {/* Robaked Menu */}
-        <div className="w-full">
+        <div className="w-full mb-[55px]">
           {data.Robaked.map((menuItem) => (
-            <div className="relative overflow-visible shadow-lg w-full" key={menuItem.id}>
+            <div className="relative overflow-visible  w-full" key={menuItem.id}>
               <div className="bg-[#FFE8CC] rounded-tl-[70px] rounded-br-[70px] lg:w-[290px] w-full min-h-[360px]">
                 <div className="flex justify-center">
                   <img
@@ -58,7 +58,7 @@ const MenusDisplay = () => {
                   </div>
                   <div className="flex justify-between items-center w-full mt-8">
                     <p className="flex items-center text-lg font-medium">
-                      <img src={star} alt="star icon" className="w-4 h-4 mr-1" />
+                      <img src={starOrange} alt="star icon" className="w-4 h-4 mr-1" />
                       {menuItem.rate}
                     </p>
                     <p className="text-lg font-medium">{menuItem.amount}</p>
@@ -70,9 +70,9 @@ const MenusDisplay = () => {
         </div>
 
         {/* Dream Menu */}
-        <div className="w-full">
+        <div className="w-full mb-[55px]">
           {data.Dream.map((menuItem) => (
-            <div className="relative overflow-visible shadow-lg w-full" key={menuItem.id}>
+            <div className="relative overflow-visible  w-full" key={menuItem.id}>
               <div className="bg-[#FF8C00] rounded-tl-[70px] rounded-br-[70px] lg:w-[290px] w-full min-h-[360px]">
                 <div className="flex justify-center">
                   <img
@@ -101,9 +101,9 @@ const MenusDisplay = () => {
         </div>
 
         {/* Pepper Menu */}
-        <div className="w-full">
+        <div className="w-full mb-[55px]">
           {data.Pepper.map((menuItem) => (
-            <div className="relative overflow-visible shadow-lg w-full" key={menuItem.id}>
+            <div className="relative overflow-visible  w-full" key={menuItem.id}>
               <div className="bg-[#FF8C00] rounded-tl-[70px] rounded-br-[70px] lg:w-[290px] w-full min-h-[360px]">
                 <div className="flex justify-center">
                   <img

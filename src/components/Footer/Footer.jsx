@@ -126,9 +126,9 @@ const Footer = () => {
         </div>
 
       </section>
-      {/* <div className="bg-[#331C00] w-full text-center text-white mt-[20px] border-t-[0.005px] border-white py-[10px]">
+      <div className="bg-[#331C00] w-full text-center text-white  border-t-[0.005px] border-white py-[10px]">
         Copyright @2024
-      </div> */}
+      </div>
     </>
   );
 };
