@@ -116,7 +116,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/about-us"
+                to="/downloadContainer"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 About Us
@@ -132,7 +132,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/how-it-works"
+                to="/meal"
                 className="hover:text-[#FF8C00] focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 How it Works
@@ -140,7 +140,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/faqs"
+                to="/questions"
                 className="hover:text-[#FF8C00] focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 FAQs
@@ -148,7 +148,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/contact-us"
+                to="/footer"
                 className="hover:text-[#FF8C00] whitespace-nowrap focus:text-[#FF8C00] px-4 py-2 transition"
               >
                 Contact Us

@@ -10,7 +10,7 @@ const Menu = lazy(() => import('./components/Menu/Menu'));
 const DownloadContainer = lazy(() => import('./components/DownloadContainer/DownloadContainer')); // Assuming these exist
 const Meal = lazy(() => import('./components/Meal/Meal'));
 const Questions = lazy(() => import('./components/Questions/Questions'));
-const ContactUs = lazy(() => import('./components/ContactUs/ContactUs'));
+const ContactUs = lazy(() => import('./components/ContactUs/ContactUs')); 
 // const SignIn = lazy(() => import('./components/SignIn/SignIn'));
 
 function App() {

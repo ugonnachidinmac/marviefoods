@@ -5,7 +5,7 @@ import starOrange from '../../assets/starOrange.svg';
 
 const MenusDisplay = () => {
   return (
-    <section className="pl-6 pr-6 lg:pl-20 lg:pr-20 font-'Red Hat Display' flex flex-col justify-center items-center mt-20 w-full md:overflow-hidden">
+    <section className="pl-6 pr-6 lg:pl-20 lg:pr-20 font-'Red Hat Display' flex flex-col justify-center items-center mt-20 w-full overflow-hidden ">
       <div className="grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-4 gap-10">
         {/* Spaghetti Menu */}
         <div className="w-full mb-[55px]">

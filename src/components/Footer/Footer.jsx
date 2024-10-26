@@ -9,7 +9,7 @@ import arrowUp from "../../assets/arrowUp.svg";
 const Footer = () => {
   return (
     <>
-      <section className="footer text-left flex flex-col  lg:flex-row w-full  min-h-[380px] pl-[79.5px] pr-[79.5px] pt-[50px] lg:pb-[108px] bg-[#331C00] gap-[100px]">
+      <section className="footer text-left flex flex-col  lg:flex-row w-full  pl-[79.5px] pr-[79.5px] pt-[50px] lg:pb-[108px] bg-[#331C00] gap-[100px]">
         <div className="left flex  lg:flex-row gap-[100px] w-full">
           {/* Logo and About Section */}
           <div id="contact" className="flex flex-col w-full lg:w-auto">
@@ -126,7 +126,7 @@ const Footer = () => {
         </div>
 
       </section>
-      <div className="bg-[#331C00] w-full text-center text-white  border-t-[0.005px] border-white py-[10px]">
+      <div className="bg-[#331C00] w-full text-center text-white  border-t-[0.005px] border-white ">
         Copyright @2024
       </div>
     </>

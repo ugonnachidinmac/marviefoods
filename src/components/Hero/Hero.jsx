@@ -21,7 +21,7 @@ const Hero = () => {
           loading="lazy"
         />
 
-        <div className="w-full absolute top-[70px] lg:top-[170px] pl-[27px] pr-[27px] lg:pr-[80px] lg:pl-[80px] md:w-[550px] lg:w-[580px] text-white font-'Red Hat Display'">
+        <div className="w-full absolute top-[70px] lg:top-[170px] pl-[27px] pr-[27px] lg:pr-[80px] lg:pl-[80px] md:w-[349px] lg:w-[580px] text-white font-'Red Hat Display'">
           <p className="text-[30px] lg:text-[44px] font-bold mb-[20px]">
             Taste Your Heart in Every Bite You Take
           </p>
